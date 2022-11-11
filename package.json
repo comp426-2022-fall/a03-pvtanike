@@ -7,7 +7,9 @@
   "scripts": {
     "test": "node ./lib/roll.js"
   },
-  "bin": "./bin/cli.js",
+  "bin": {
+    "roll-dice": "./bin/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a03-pvtanike.git"
